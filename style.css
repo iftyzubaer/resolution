@@ -126,7 +126,10 @@ body {
 .mindset {
     background-image: url('images/gradient3.png'), url('images/watch.png');
     background-repeat: no-repeat;
-    background-position: center, cover;
+    background-position: cover, cover;
+    margin: auto;
+    width: 50%;
+    border-radius: 8px;
 }
 
 .mindset-title {
@@ -149,4 +152,68 @@ body {
     font-weight: 600;
     border: none;
     margin: 20px 64px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-para {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 485px;
+}
+
+.social-links {
+    max-width: 175px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.footer-title-2 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact input[type="email"] {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 325px;
+    height: 64px;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 21px;
+}
+
+.footer-btn {
+    display: block;
+    border-radius: 8px;
+    background: #FFF;
+    width: 170.106px;
+    height: 64px;
+    color: #F15B22;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
 }
